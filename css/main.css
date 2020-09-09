@@ -4,17 +4,25 @@ html{
 body{
  margin: 0;
  padding: 0;
- position: fixed;
- top:0;
- bottom: 0;
- left:0;
- right: 0;
 }
 
 a{
  text-decoration: none;
  display: inline;
  color: black;
+}
+
+.grid-container{
+    max-width: 980px;
+    margin:auto;
+}
+
+.home-body{
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left:0;
+    right: 0;  
 }
 
 header{
@@ -44,6 +52,12 @@ header .header-icons-container .icons{
 
 header .icons span{
     color: rgb(243,215,0);
+}
+
+nav .nav-logo-container1 img{
+    width: 220px;
+    margin-top: 10px;
+    margin: 15px;
 }
 
 nav .nav-logo-container img{
@@ -88,7 +102,7 @@ nav .profile-link a{
     grid-column: 2;
     justify-items: center;
     height: 260px;
-    margin-top: 80px;
+    
 }
 
 .home-main-text{
@@ -140,7 +154,7 @@ height: 70px;
 }
 
 .blogs-news-img-container img{
-
+    width: 85%;
 }
 
 .blogs-news-info-container{
@@ -149,4 +163,49 @@ height: 70px;
 
 .blogs-news-info-container p{
     margin-bottom: 35px;
+}
+
+.blogs-posts-container{
+    padding: 0 50px 40px;
+}
+
+.blogs-posts-container h3{
+    border-bottom: 1px solid #47cfac;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.blogs-button{
+    border:1px solid #47cfac;
+    padding: 10px 15px;
+    font-size: 12px;
+}
+
+.blogs-posts-container .post-container{
+    display: inline-block;
+    padding-left: 10px;
+    max-width: 30%;
+    margin-bottom: 50px;
+}
+
+.blogs-posts-container .post-container p {
+    margin-bottom:35px ;
+}
+
+.blogs-posts-container .post-container img{
+    width: 100%;
+
+}
+
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: #47cfac;
+    border-top: 35px solid #47cfac;
+    text-align: center;
+}
+
+footer p{
+    color: aliceblue;
+    margin-top: 30px;
 }
